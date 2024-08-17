@@ -20,8 +20,8 @@ app.get('/', (req, res) => {
 let transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-        user: 'futuretouchs@gmail.com', 
-        pass: 'ufvmdzzopesgubhg' 
+        user: 'futureittouch@gmail.com', 
+        pass: 'xmnkckbdtskzyfuh' 
     }
 });
 
@@ -145,7 +145,7 @@ app.post("/sendmail", async (req, res) => {
 
         
         ${Address ? '<p><strong> Address :</strong> ' + Address + '</p>' : ''}
-        ${skype_id ? '<p><strong> Skype Id :</strong> ' + skype_id + '</p>' : ''}
+    
 
 
         ${selectedCity ? '<p><strong>  Selected City :</strong> ' + selectedCity + '</p>' : ''}
